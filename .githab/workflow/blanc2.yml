@@ -1,1 +1,25 @@
+name: blanc2
 
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup
+      run: make setup
+
+    - name: Test
+      run: make test
+
+    - name: Lint
+      run: make lint
