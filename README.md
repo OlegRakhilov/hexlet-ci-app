@@ -1,5 +1,5 @@
 [![blanc2](https://github.com/OlegRakhilov/hexlet-ci-app/actions/workflows/blanc2.yml/badge.svg)](https://github.com/OlegRakhilov/hexlet-ci-app/actions/workflows/blanc2.yml)
-
+[![Node CI](https://github.com/OlegRakhilov/hexlet-ci-app/actions/workflows/main.yml/badge.svg)](https://github.com/OlegRakhilov/hexlet-ci-app/actions/workflows/main.yml)
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
